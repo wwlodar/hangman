@@ -4,7 +4,7 @@ import sys
 name = input("Hello, what is your name?")
 print("Hi, " + name +". I think it's the best time to have some fun.")
 answer = input("Do you want to play hangman? ")
-if answer in ["yes", "YES", "y", "Y"]:
+if answer in ["yes", "YES", "y", "Y","Yes]:
     print("Let's go! You have to guess the word that I chose. Be careful! You can make mistake only 5 times!")
 else:
     print("Maybe next time.")
